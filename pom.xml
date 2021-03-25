@@ -18,8 +18,6 @@
 		<java.version>1.8</java.version>
 	
 	</properties>
-	<!-- packaging to WAR -->
-    <packaging>war</packaging>
 	
 	<dependencies>
 		<dependency>
@@ -27,11 +25,7 @@
 			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
 		
-		<dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-tomcat</artifactId>
-   <scope>provided</scope>
-</dependency>
+			
 
 		<dependency>
 			<groupId>wsdl4j</groupId>
